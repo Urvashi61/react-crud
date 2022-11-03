@@ -20,7 +20,7 @@ const Listing = () => {
     if (!loading) {
       dispatch(getUser());
     }
-  }, [getResponse1]);
+  }, [dispatch,loading,getResponse1]);
 
   return (
     <React.Fragment>
